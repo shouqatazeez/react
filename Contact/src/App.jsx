@@ -1,8 +1,12 @@
 import React from 'react'
+import Props from './props'
 
 const App = () => {
   return (
-    <div>App</div>
+    <div>App
+      <Props name="shouqat" course="B.tech" />
+      <Props name="Ahmad" courst="Engineering" />
+    </div>
   )
 }
 
