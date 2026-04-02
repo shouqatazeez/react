@@ -1,10 +1,10 @@
 import React from 'react'
 
-const Props = (props) => {
+const Props = ({ name, course }) => {
     return (
         <div>
-            <p>{props.name}</p>
-            <p>{props.course}</p>
+            <p>{name}</p>
+            <p>{course}</p>
         </div>
     )
 }
