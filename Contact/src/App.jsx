@@ -5,7 +5,7 @@ const App = () => {
   return (
     <div>App
       <Props name="shouqat" course="B.tech" />
-      <Props name="Ahmad" courst="Engineering" />
+      <Props name="Ahmad" course="Engineering" />
     </div>
   )
 }
